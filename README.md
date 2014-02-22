@@ -3,6 +3,9 @@
 ###Author
 Kayla Morrison
 
+###About
+This API will tell you if two words are anagrams of each other, meaning you can rearrange the letters of one word to make the other.
+
 ###Usage
 format your input URL like this:
 
