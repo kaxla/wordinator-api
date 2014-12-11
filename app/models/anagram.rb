@@ -7,10 +7,6 @@ class Anagram
   end
 
   def anagram?
-    if (word1.downcase.split(//).sort == word2.downcase.split(//).sort) && (word1 != word2)
-      true
-    else
-      false
-    end
+    (word1.downcase.split(//).sort == word2.downcase.split(//).sort) && (word1 != word2) ? true : false
   end
 end
